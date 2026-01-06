@@ -36,6 +36,9 @@
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+            {% if post.img2 %}
+            <img src="img/portfolio/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt2 }}">   
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
