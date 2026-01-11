@@ -3,9 +3,10 @@ title: Jonathan Hughes
 email: jonathan.cnhughes@googlemail.com
 url: https://jonathancnhughes.github.io
 description: "This is the portfolio for Game Developer Jonathan Hughes."
+default_image: /img/portfolio/mib/MIBMostWanted_KeyArt_1x1_Unbranded.png
 keywords: "your keywords, separated by commas"
 skills: "Game Developer"
-meta_author: Hughes Jonathan
+meta_author: Jonathan Hughes
 
 # Google webmaster tools
 google_verify:
