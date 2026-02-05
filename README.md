@@ -7,7 +7,7 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+<img width="1364" height="769" alt="portfolio" src="https://github.com/user-attachments/assets/6dd00770-c408-4cc3-9efe-d964576fd9ee" />
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
