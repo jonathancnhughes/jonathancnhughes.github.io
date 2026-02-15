@@ -1,310 +1,231 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-15T15:13:45+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jonathan Hughes | Game Developer</title><subtitle>POrtfolio</subtitle><entry><title type="html">Men in Black: Most Wanted</title><link href="http://localhost:4000/men-in-black" rel="alternate" type="text/html" title="Men in Black: Most Wanted" /><published>2026-02-02T00:00:00+00:00</published><updated>2026-02-02T00:00:00+00:00</updated><id>http://localhost:4000/men-in-black</id><content type="html" xml:base="http://localhost:4000/men-in-black"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: Meta Quest 2/3/S<br />
+<a href="https://www.meta.com/en-gb/experiences/men-in-black-most-wanted/31400148706295734/" target="_blank">Meta Store Link</a>
+</div>
 
-<feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2026-01-13T14:31:38+00:00</updated>
-  <id>http://localhost:4000/</id>
+<div class="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HGjPsFGyl8c?si=i5Vrh-Kd9_lMK2Rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
 
-  
-    <title type="html">Jonathan Hughes</title>
-  
+<p>Main responsibilities:</p>
 
-  
-    <subtitle>This is the portfolio for Game Developer Jonathan Hughes.</subtitle>
-  
+<ul>
+  <li>Valuable prototyping of gameplay mechanics, dialogue system and inventory early on in the project.</li>
+  <li>Developed Bystander AI and exposure system.</li>
+  <li>Implemented and helped design hidden in plain sight gameplay.</li>
+  <li>Developed “leech” type enemy AI from prototype to final version.</li>
+  <li>Developed Boss AI for Big Bug, First iteration of “Craig” boss AI and further work on “Yarl” final boss AI.</li>
+  <li>Performance optimisation and general bug-fixing.</li>
+</ul>
 
-  
+<p><img src="/assets/img/mib/MIBMostWanted_Screenshots_01.png" alt="Men In Black:Most Wanted" /></p>
 
-  
-  
-    <entry>
-      <title type="html">Scrawny</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Scrawny" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/scrawny</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p>I joined the project not too long after its start so I have worked through and contributed to the initial vertical slice milestone, through to alpha and the final release.</p>
 
-      
-      
-      
-      
-      
+<p>My initial time was spent prototyping a variety of gameplay mechanics and systems used in the game, some of which underwent further iteration and made it into the published game. I helped added features to the pistol and the magnet gun (that would go on to become the magnet gloves) and made the first iteration of the heal spray. I worked on the initial dialogue system that had branching paths, and a scanner-based mini-game that would allow the player to discover the NPC’s alignment and the correct path through the branching dialogue. Tied to this was the triggering of follow-on behaviour for the AI, such as unlocking a door for the player if they navigate their dialogue correctly. This work was later folded into the Utility AI system as AI Tasks.</p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p>After some time working on gameplay mechanics and prototyping, I moved to the AI team and helped build out the newly adopted Utility AI system for our AI which was replacing earlier alternatives that I did help prototype. Along with writing more general code to be used in agent behaviours and considerations, I mostly working on the human bystander AI and a number of bosses in the game, the Big Bug and Craig in particular.</p>
 
-      
+<p>Working closely with design and animation, I expanded the human NPC behaviour that would respond to the player’s actions like using MIB gadgets or weapons, or trespassing where they weren’t supposed to be. This formed a pillar of the game in the form of “hidden in plain sight (HIPS)” gameplay where how well the player keeps their activities from the general public will have an impact on their mission score. If NPCs became suspicious of the player then they would need to have their memory wiped with the franchise’s famous neuralyzer before the player could continue. I helped rework this exposure mechanic and the NPC’s behaviour when they were cautious (Would follow the player making it harder for them to perform their agent duties) to panicked, where NPCs would run away and hide.</p>
 
-      
+<p><img src="/assets/img/mib/MIBMostWanted_Screenshots_02.png" alt="Men in Black: Most Wanted" /></p>
 
-      
-        <summary type="html"></summary>
-      
+<p>I worked on the <em>Leech</em> enemy AI from prototype to final form. This is a special enemy type that can jump at the player and latch on to the player, creating a fun VR interaction of pulling the leeches off and throwing them away. These jump and latch behaviours needed to be coded up to work alongside the standard Utility AI decisions and behaviours set up for the leech.<br />
+There were also two other leech variants: The timebomb leech that would start a countdown to explode once latched to the player, and the sleeper leech, a leech that was too large to latch on to the player so would just slam into the player but would start asleep encouraging the player to sneak past else risk waking them up.</p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Proteckattack</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Proteckattack" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/proteckattack</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p>For Craig, the giant leech boss, I quickly iterated its behaviour and repositioning as the player moves through the sewer sequence. Working with design, we quickly iterated the introduction and progression through the physical space which has largely remained unchanged.</p>
 
-      
-      
-      
-      
-      
+<p>My proudest work is on the bug boss. A fan favourite of the original film and I really wanted to do it justice in the game. The boss sequence went through a number of iterations but still felt quite lacklustre. With the boss arena being staged in a nightclub I pushed for the boss fight to make use of the environment, and we arrived at a responsive dancefloor that changed to reflect the current state of the boss. A notable feature is the dance floor activating as the bug reveals itself and jumps down from the ceiling. With additional work to codify distinct phases with each new phase providing an escalation in the attacks the Big Bug has become a standout of the game.</p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p><img src="/assets/img/mib/MIBMostWanted_Screenshots_05.png" alt="Men in Black: Most Wanted" /></p>
 
-      
+<p>Towards the end of the project I was involved in the normal bug-fixing that happens to improve the quality of the game and remove problematic edge cases. I was also involved in optimising the performance of the game. This mostly involved ensuring all meshes that could be culled were included in view volumes and view volumes were properly configured so that it would be possible to cull out all unneeded parts of the levels that were not viewable by the player. This optimisation work also involved using the profiler in editor play mode and with local builds to identify the causes of dips in performance, and then apply fixes whether that be moving vfx/shaders to the bootstrap scene to prewarm them, or to rewrite costly calculations.<br />
+Overall, a really enjoyable project where I’ve learnt so much.</p>
 
-      
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="publishedgames" /><category term="publishedgames" /><summary type="html"><![CDATA[Engine: Unity Platform: Meta Quest 2/3/S Meta Store Link]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mib/MIBMostWanted_KeyArt_1x1_Unbranded.png" /><media:content medium="image" url="http://localhost:4000/mib/MIBMostWanted_KeyArt_1x1_Unbranded.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gang Beasts</title><link href="http://localhost:4000/gang-beasts" rel="alternate" type="text/html" title="Gang Beasts" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>http://localhost:4000/gang-beasts</id><content type="html" xml:base="http://localhost:4000/gang-beasts"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC, Xbox, Playstation, Nintendo Switch<br />
+<a href="https://gangbeasts.game/" target="_blank">Gang Beasts Home Page</a>
+</div>
 
-      
-        <summary type="html"></summary>
-      
+<p>I joined the Gang Beasts team when I first started Coatsink. It was a small team where my lead was working on the next-gen port whilst I was handling bugs and other issues.<br />
+We had weekly meetings with Boneloaf and managed my tasks using Clickup. Whilst bug-fixing I liased with qa for more information on certain issues and attended their internal playtest sessions.<br />
+I did get an opportunity to prototype a new game mode, similar to the football mode but with an always moving ball and barriers akin to Blockout. It was fun to get the chance to add something in to an established game and do some design work which I also enjoy.</p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Officesecrets</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Officesecrets" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/officesecrets</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p><img src="/assets/img/gangbeasts/Containers%201.jpg" alt="Containers" /></p>
 
-      
-      
-      
-      
-      
+<p>It was a great experience where I got to work on a wide number of systems in the project.<br />
+These include, but not limited to:</p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<ul>
+  <li>Lobby/matchmaking issues - joining/merging/syncing costumes</li>
+  <li>Costume issues</li>
+  <li>User language settings</li>
+  <li>Object sync issues during online games</li>
+  <li>AI behaviour issues (incorrect target for AI beasts in waves mode)/tentacles and shark pathing on aquarium</li>
+  <li>Switch controller issues - adding extra players in lobby</li>
+  <li>Level-specific issues - lightbaking, fixing water physics, stability</li>
+  <li>Input issues - keyboard vs controller</li>
+  <li>Camera issues</li>
+  <li>Menu/UI issues - settings not saved/loaded properly, navigation issues</li>
+  <li>Wrote unlit shader for confetti lighting issue</li>
+  <li>New language character issues</li>
+  <li>Created dev PC/Switch/PS4 builds for internal testing.</li>
+</ul>
 
-      
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="publishedgames" /><category term="publishedgames" /><summary type="html"><![CDATA[Engine: Unity Platform: PC, Xbox, Playstation, Nintendo Switch Gang Beasts Home Page]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/gangbeasts/GangBeastsKeyArt.png" /><media:content medium="image" url="http://localhost:4000/gangbeasts/GangBeastsKeyArt.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2D Dungeon Procedural Generation</title><link href="http://localhost:4000/dungeon-proc-gen" rel="alternate" type="text/html" title="2D Dungeon Procedural Generation" /><published>2026-01-01T00:00:00+00:00</published><updated>2026-01-01T00:00:00+00:00</updated><id>http://localhost:4000/dungeon-proc-gen</id><content type="html" xml:base="http://localhost:4000/dungeon-proc-gen"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC
+</div>
 
-      
+<div class="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXlZ4LY0Rhg?si=y0faria5n7OldD4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
 
-      
-        <summary type="html"></summary>
-      
+<p>At Coatsink we have self-dev days, a couple days each month where we are free to experiment with game ideas, learn new skills etc. During some of my self-dev days I decided I would like to try and emulate the generated dungeon room layout I’d seen in the Rogue Legacy games. In Rogue Legacy, it would use a pool of room layouts, each room having a number of exits but what exits were available would differ on each run. I wanted to make a system that would use a pool of rooms but vary what exits would be used.<br />
+Each room details all of its available exits and are added as prefabs made available to the dungeon generation.​</p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Meninblack</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Meninblack" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/meninblack</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p>The basic algorithm:</p>
+<ul>
+  <li>Begin with the starting room and add all of its exits to a list.</li>
+  <li>Pick an exit from the list and randomly pick a new room with a corresponding exit that can be placed without overlapping any other existing rooms. If an overlap is found, pick a new random room.</li>
+  <li>Once a new room has been added, add all of its available exits to the exits list.</li>
+  <li>Repeat this process until the required number of rooms is met.</li>
+  <li>Block off any outstanding open exits to complete the generation.</li>
+</ul>
 
-      
-      
-      
-      
-      
+<p><img src="/assets/img/dungeonprocgen/an-example-room-generation.png" alt="An Example Room Generation" /></p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p>I added special unique rooms to the generation. These are rooms that there would be a limited number of, e.g. a shop and added some rudimentary means of determining when a special room should be selected over a standard room. It is likely that we would not want special rooms to appear immediately after the start but because they would be a requirement for a successful generation, the likelihood of picking a special room is increased each time a special room is not picked until it becomes a certainty, and will be added next by the algorithm.</p>
 
-      
+<p>Finally I added a simple character controller so I can move between the rooms during play mode plus some cinemachine scripts to follow the player and switch to the new room upon entering it. With the time available we added some simple game mechanics: the boss room is locked and cannot be entered without finding a key that is spawned in a random non-special room. Once the key is found, the boss room can be entered but the doors lock after entry and would only unlock once the boss has been defeated as an example of what could be done.</p>
 
-      
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="experiments" /><category term="experiments" /><summary type="html"><![CDATA[Engine: Unity Platform: PC]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/dungeonprocgen/dungeon-gen-top-level.png" /><media:content medium="image" url="http://localhost:4000/dungeonprocgen/dungeon-gen-top-level.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Dice Tower</title><link href="http://localhost:4000/the-dice-tower" rel="alternate" type="text/html" title="The Dice Tower" /><published>2025-12-06T00:00:00+00:00</published><updated>2025-12-06T00:00:00+00:00</updated><id>http://localhost:4000/the-dice-tower</id><content type="html" xml:base="http://localhost:4000/the-dice-tower"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC (Playable in desktop browser)
+</div>
+<div class="center">
+<iframe frameborder="0" src="https://itch.io/embed/1617860?linkback=true" width="552" height="167"><a href="https://jflex.itch.io/the-dice-tower">The Dice Tower by jflex, CountingWithTeeth, SoooSquishy, class WilliamFox : GameplayProgrammer</a></iframe>
+</div>
 
-      
-        <summary type="html"></summary>
-      
+<p>This game was our submission for the GMTK Game Jam 2022. The game jam lasted 48 hours and the theme was “Roll the Dice”. I was in a team of four but this time I was not the sole developer and was joined by another programmer Will. Whilst I have been using github as source control for all game jam games previously, it was a necessity for both programmers to work seamlessly on the project.</p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Gangbeasts</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Gangbeasts" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/gangbeasts</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p>We had a brief brainstorming session of how to implement something to the theme and I suggested a mechanic where you roll a number of dice and where they settled would determine where you and enemies spawned. The number of dice, and challenge, would increase with each level and adding in a reroll feature and we had a simple arcade-y score attack game we felt we could implement in the short time given.</p>
 
-      
-      
-      
-      
-      
+<p>With the two programmers, we split the work up such that I would handle the overall architecture, the dice rolling and general project management, and Will would handle the player movement and enemy logic.<br />
+I created separate branches for us to work on and managed merging them into the main branch and building the project for testing and submission.</p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p><img src="/assets/img/dicetower/dice-tower-in-play.png" alt="Dice Tower Combat" /></p>
 
-      
+<p>The dice were effectively cubes that were given a small force in a random direction plus gravity enabled to have them fall to the arena below. I added logic to re-activate any dice that were cocked or landed on another dice until all dice were flat at rest. From there, the dice would determine spawn locations for the 2D player sprite, enemy sprites and any treasure sprites that were rolled.<br />
+If I was to do the dice rolling mechanic again I would perhaps have set result positions and have the dice move and animate into position.​</p>
 
-      
+<p><img src="/assets/img/dicetower/dice-tower-diceplay.png" alt="Dice in Play" /></p>
 
-      
-        <summary type="html"></summary>
-      
+<p>The GMTK Game Jams are always popular, this jam in particular has over 6,000 entries. That being said a lot of our feedback was really positive and we were rated in the top 12% so we didn’t get featured on the YouTube channel but I think there’s a really cool game here with a bit more polish and further exploration into the mechanics.</p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Esthersstory</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Esthersstory" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/esthersstory</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="gamejam" /><category term="gamejam" /><summary type="html"><![CDATA[Engine: Unity Platform: PC (Playable in desktop browser) The Dice Tower by jflex, CountingWithTeeth, SoooSquishy, class WilliamFox : GameplayProgrammer]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/dicetower/TheDiceTower.png" /><media:content medium="image" url="http://localhost:4000/dicetower/TheDiceTower.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Adventures of Scrawny</title><link href="http://localhost:4000/adventures-of-scrawny" rel="alternate" type="text/html" title="The Adventures of Scrawny" /><published>2025-12-05T00:00:00+00:00</published><updated>2025-12-05T00:00:00+00:00</updated><id>http://localhost:4000/adventures-of-scrawny</id><content type="html" xml:base="http://localhost:4000/adventures-of-scrawny"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC (Playable in desktop browser)
+</div>
 
-      
-      
-      
-      
-      
+<div class="center">
+<iframe frameborder="0" src="https://itch.io/embed/1551379?linkback=true" width="552" height="167"><a href="https://jflex.itch.io/the-adventures-of-scrawny">The Adventures Of Scrawny by jflex, CountingWithTeeth</a></iframe>
+</div>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p>For this jam I teamed up with my artist friend from earlier jam submission Office Secrets to enter the Zeno Jam 5, a jam that lasted three days with the theme “Light Attracts Bugs”. We decided to make a cute puzzle game where levels are solved by turning on and off lights that encourage Scrawny, the protagonist, to reach the goal.<br />
+In this jam, I opted to do some up-front architecture setup and laid the groundwork with a bootstrap scene that would contain the common manager prefabs and scripts so each level scene could be easily tested from the Editor and wouldn’t require starting from the normal entry-point of the game.</p>
 
-      
+<p><img src="/assets/img/scrawny/Scrawny-Level1.png" alt="Adventures of Scrawny Level 1" /></p>
 
-      
+<p>We opted to take a relaxed pace and whilst the game was complete and well presented, it ended up with only a small number of puzzles. We perhaps could have added more but we decided to go with what was feature complete rather than add something that could have ended up half-finished by the time the jam was over.</p>
 
-      
-        <summary type="html"></summary>
-      
+<p><img src="/assets/img/scrawny/Scrawny-Level2.png" alt="Adventures of Scrawny Level 1" /></p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Dungeonprocgen</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Dungeonprocgen" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/dungeonprocgen</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p>The main feedback from our peers was that our game was great but lacking in content but even despite this it was voted 4th overall in the jam which we were of course pretty pleased with.<br />
+I believe that with a jam this short the main focus is to prove a mechanic works and to satisfy the theme, not necessarily produce a full game ready to be published and I strongly feel we achieved that.</p>
 
-      
-      
-      
-      
-      
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="gamejam" /><category term="gamejam" /><summary type="html"><![CDATA[Engine: Unity Platform: PC (Playable in desktop browser)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/scrawny/Adventures_of_Scrawny.png" /><media:content medium="image" url="http://localhost:4000/scrawny/Adventures_of_Scrawny.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Office Secrets</title><link href="http://localhost:4000/office-secrets" rel="alternate" type="text/html" title="Office Secrets" /><published>2025-12-04T00:00:00+00:00</published><updated>2025-12-04T00:00:00+00:00</updated><id>http://localhost:4000/office-secrets</id><content type="html" xml:base="http://localhost:4000/office-secrets"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC (Playable in desktop browser)
+</div>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<div class="center">
+<iframe frameborder="0" src="https://itch.io/embed/1456738?linkback=true" width="552" height="167"><a href="https://jflex.itch.io/office-secrets">Office Secrets by jflex, CountingWithTeeth, SoooSquishy, chellegrey</a></iframe>
+</div>
 
-      
+<p>I took part in Narrative Imperative Game Jam #1 in a team of four. The jam lasted for two weeks and the theme was “This is bigger than you”.</p>
 
-      
+<p><img src="/assets/img/officesecrets/YourDesk.png" alt="Your Desk" /></p>
 
-      
-        <summary type="html"></summary>
-      
+<p>I was the only developer in the team and also acted as project manager/producer arranging catch-up calls and handling assets from art, narrative and audio.</p>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Doggogetball</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Doggogetball" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/doggogetball</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p><img src="/assets/img/officesecrets/Bob.png" alt="A Visit From Bob" /></p>
 
-      
-      
-      
-      
-      
+<p>We knew we wanted to make a game involving some kind of conspiracy and with narrative being the focus of the jam I was keen for your choices to matter, ideally utilising the “person will remember this” concept from Telltale games. Whilst we didn’t end up doing that I did program a dialogue system that would branch based on previous responses made.</p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p><img src="/assets/img/officesecrets/TheBoss.png" alt="The Boss" /></p>
 
-      
+<p>We ended up having three distinct endings which we mapped out using Miro which allowed us to collaborate and quickly throw ideas and flows together.
+The jam was a little different in that rather the submissions be scored by the other entrants of the jam, this one had a panel of judges and cash prizes for the top 3.
+Whilst that wasn’t the main reason for participating, we came 2nd in the scoring and won a small prize as a bonus!</p>
 
-      
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="gamejam" /><category term="gamejam" /><summary type="html"><![CDATA[Engine: Unity Platform: PC (Playable in desktop browser)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/officesecrets/OfficeSecrets-Preview.png" /><media:content medium="image" url="http://localhost:4000/officesecrets/OfficeSecrets-Preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Esther’s Story</title><link href="http://localhost:4000/esthers-story" rel="alternate" type="text/html" title="Esther’s Story" /><published>2025-12-03T00:00:00+00:00</published><updated>2025-12-03T00:00:00+00:00</updated><id>http://localhost:4000/esthers-story</id><content type="html" xml:base="http://localhost:4000/esthers-story"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC (Playable in desktop browser)
+</div>
 
-      
-        <summary type="html"></summary>
-      
+<div class="center">
+<iframe frameborder="0" src="https://itch.io/embed/1406625?linkback=true" width="552" height="167"><a href="https://jflex.itch.io/esthers-story">Esther's Story by jflex, GarrettRose, Dylan Chambore, tsar.ah, George Larkwright, queengamemachine</a></iframe>
+</div>
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Dicetower</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Dicetower" />
-      <published>2026-01-10T00:00:00+00:00</published>
-      <updated>2026-01-10T00:00:00+00:00</updated>
-      <id>http://localhost:4000/dicetower</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+<p>My first game jam working in a team of six where I was the sole programmer. The jam had the theme of Big and took place over two weeks in a more relaxed setting so I did an hour or two each evening during the jam. The team very quickly arrived at the idea of playing with scale and a story of a girl trapped in a dollhouse.</p>
 
-      
-      
-      
-      
-      
+<p><img src="/assets/img/esthersstory/Esther1.png" alt="Esther 1" /></p>
 
-      <author>
-          <name></name>
-        
-        
-      </author>
+<p>I was the one to offer the idea of selecting two objects, one highlighted in red, the other blue, like Portal and have the objects swap their size. I put together a concept quickly using a bounce easing function on the object scales which won the team over and they began to work on puzzles and theming in the game.</p>
 
-      
+<p>The jam was set up to make teams after listing your area of expertise so it was a new challenge to work with people I’ve never met before but it was great working with people from other disciplines and we managed to make something that feels cohesive.</p>
 
-      
+<p><img src="/assets/img/esthersstory/Esther2.png" alt="Esther 2" /></p>
 
-      
-        <summary type="html"></summary>
-      
+<p>Most notable about Esther’s Story is that the narrator’s lines are fully voice-acted and it includes a cut-scene video for the game’s ending. I had not done any programming with cut-scenes before but with the Video component it was straightforward enough and the art, animation and music folks did a great job!</p>
 
-      
-      
-    </entry>
-  
-</feed>
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="gamejam" /><category term="gamejam" /><summary type="html"><![CDATA[Engine: Unity Platform: PC (Playable in desktop browser)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/esthersstory/EsthersStory-Preview.png" /><media:content medium="image" url="http://localhost:4000/esthersstory/EsthersStory-Preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Proteck and Attack</title><link href="http://localhost:4000/proteck-and-attack" rel="alternate" type="text/html" title="Proteck and Attack" /><published>2025-12-02T00:00:00+00:00</published><updated>2025-12-02T00:00:00+00:00</updated><id>http://localhost:4000/proteck-and-attack</id><content type="html" xml:base="http://localhost:4000/proteck-and-attack"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC (Playable in desktop browser)
+</div>
+
+<div class="center">
+<iframe frameborder="0" src="https://itch.io/embed/1376504?linkback=true" width="552" height="167"><a href="https://jflex.itch.io/proteck-and-attack">Proteck and Attack by jflex</a></iframe>
+</div>
+
+<p>My submission to the Game Dev London x Into Games Global Game Jam 2022. The game jam lasted 48 hours and the theme was “Duality”. I designed, programmed and sourced assets entirely on my own.</p>
+
+<p><img src="/assets/img/proteckandattack/proteck-and-attack.png" alt="Proteck and Attack" /></p>
+
+<p>Inspired by Enter the Gungeon and Captain America I chose to create a simple top-down game where a soldier finds a shield that can be held in defence or thrown at their enemies.<br />
+Despite the short length of the jam I added an in-game tutorial to teach the player the controls.<br />
+<a href="https://itch.io/jam/game-dev-london-x-into-games-ggj22/rate/1376504">Results and feedback can be found here</a></p>
+
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="gamejam" /><category term="gamejam" /><summary type="html"><![CDATA[Engine: Unity Platform: PC (Playable in desktop browser)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/proteckandattack/proteckandattack-header-image.png" /><media:content medium="image" url="http://localhost:4000/proteckandattack/proteckandattack-header-image.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Doggo Get Ball</title><link href="http://localhost:4000/doggo-get-ball" rel="alternate" type="text/html" title="Doggo Get Ball" /><published>2025-12-01T00:00:00+00:00</published><updated>2025-12-01T00:00:00+00:00</updated><id>http://localhost:4000/doggo-get-ball</id><content type="html" xml:base="http://localhost:4000/doggo-get-ball"><![CDATA[<div class="center">
+Engine: Unity<br />  
+Platform: PC (Playable in desktop browser)
+</div>
+
+<div class="center">
+<iframe frameborder="0" src="https://itch.io/embed/1324518?linkback=true" width="552" height="167"><a href="https://jflex.itch.io/doggo-gets-ball">Doggo Gets Ball by jflex</a></iframe>
+</div>
+
+<p>This was my submission for Zeno Jam 4. A short 2 day jam with the theme “I Am Everywhere”</p>
+
+<p>I almost immediately knew I wanted to make a “snake” type game but with the condition that the board has to be completely filled before reaching the exit, which is the doggo’s ball. I originally had a concept of a world eating snake borrowed from mythology but opted for a lighter tone with the doggo that’s just trying to reach its ball.</p>
+
+<p>A count of the number of unoccupied spaces is kept and a level is deemed complete when this count is zero when reaching the exit. This does mean that there is no one set solution for each level. So as long as the player has filled the board when reaching the exit it will be treated as a success.</p>
+
+<p><img src="/assets/img/doggogetball/doggogetball-image1.png" alt="Doggo Get Ball" /></p>
+
+<p>I sourced the art and sound assets but couldn’t find a fitting dog sprite and with the short time constraints I opted to create my own - I’m by no means an artist but the character was popular amongst the jam community. <a href="https://itch.io/jam/zenojam-the-perfect-jam-for-beginners-4/rate/1324518">Results and comments can be found here</a></p>
+
+<hr />]]></content><author><name>Jonathan Hughes</name></author><category term="gamejam" /><category term="gamejam" /><summary type="html"><![CDATA[Engine: Unity Platform: PC (Playable in desktop browser)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/doggogetball/doggogetball-preview.png" /><media:content medium="image" url="http://localhost:4000/doggogetball/doggogetball-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
