@@ -4,7 +4,7 @@ title: "Men in Black: Most Wanted"
 author: "Jonathan Hughes"
 categories: publishedgames
 tags: [publishedgames]
-image: /mib/MIBMostWanted_KeyArt_1x1_Unbranded.png
+image: /mib/MIBMostWantedKeyArt.png
 ---
 
 <div class="center">
