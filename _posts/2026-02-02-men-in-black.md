@@ -14,7 +14,7 @@ Platform: Meta Quest 2/3/S<br/>
 </div>
 
 <div class="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HGjPsFGyl8c?si=i5Vrh-Kd9_lMK2Rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mAMEqRVDWos?si=4wrMYtNqxnalLt-7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Main responsibilities:
